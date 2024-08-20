@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div class="product-list">
+        <div class="product" th:each="item: ${cart.items}" th:object="${item.product}">
+            <div class="product-img"><img th:src="*{picture}"/> </div>
+            <div class="product-name"><b><span th:text="*{name}"></span></b></div>
+            <div class="product-price"><b><span th:text="*{price}"></span></b></div>
+        </div>
+    </div>
+</body>
+</html>

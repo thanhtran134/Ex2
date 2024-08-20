@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background: url('pictures/background.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+}
+
+.form-title{
+    text-align: center;
+    .form-title-main{
+        font-size: 55px;
+        margin-bottom: -20px;
+        margin-top: 0px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.form-title-head{
+    p{
+        font-weight: bold;
+        font-size: 17px;
+        margin: 0px;
+    }
+}
+
+.regis-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.regis-form div {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.regis-form div input{
+    width: 100%; /* Chiều rộng input bằng với div */
+    box-sizing: border-box; /* Bao gồm padding và border trong chiều rộng */
+    padding: 5px; /* Ví dụ về padding */
+    border: 1px solid #ccc; /* Ví dụ về border */
+}
+
+.regis-form div label{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+    /*margin: 0px;*/
+}
+
+
+.regis-form input[type="text"], .regis-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.regis-form button {
+    width: 60%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.regis-form button:hover {
+    background-color: #ccc;
+}
+.regis-btn{
+    width: 100%;
+    text-align: center;
+}
+.div-pw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-pw-l, .div-pw-r {
+    width: 48%;
+}
+
+.form-regis-text{
+    display: flex;
+}
+
+.form-regis-text p{
+    margin: 0px;
+}
